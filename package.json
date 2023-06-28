@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "jest --silent --coverage",
+    "test:watch": "jest --watchAll --coverage --silent",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
