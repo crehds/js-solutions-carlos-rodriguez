@@ -1,6 +1,6 @@
 // This function returns the longest substring of a variable that has a length of R or greater.
-// variable: an array of strings
-// R: a number
+// strArr: an array of strings
+// r: a number
 // The function returns a string.
 
 export default function longestString(strArr, r) {
